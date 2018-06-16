@@ -35,19 +35,21 @@
             // 
             this.Title.AutoSize = true;
             this.Title.Font = new System.Drawing.Font("Segoe Script", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Title.Location = new System.Drawing.Point(263, 162);
+            this.Title.Location = new System.Drawing.Point(175, 104);
+            this.Title.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(271, 68);
+            this.Title.Size = new System.Drawing.Size(66, 42);
             this.Title.TabIndex = 0;
-            this.Title.Text = "Home Base";
+            this.Title.Text = "test";
             this.Title.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(533, 288);
             this.Controls.Add(this.Title);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
